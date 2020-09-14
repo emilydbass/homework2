@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    font-family: 'Lucida Grande', sans-serif;
     background: #000000;
     color: #FFFFFF;
   }
@@ -27,27 +27,21 @@ p{
   padding-top: 20px;
 }
 div{
-  height: 150px;
+  min-height: 150px;
   padding: 25px 25px 25px 25px;
 }
 
 #red{
-  height: 150px;
-  padding: 25px 25px 25px 25px;
   text-align: right;
   background: #FF0000;
 }
 
 #blue{
-  height: 150px;
-  padding: 25px 25px 25px 25px;
   text-align: left;
   background:#0000FF;
 }
 
 #yellow{
-  height: 150px;
-  padding: 25px 25px 25px 25px;
   text-align: right;
   background: #FFFF00;
 }
@@ -62,8 +56,6 @@ div{
 }
 
 #green{
-  height: 150px;
-  padding: 25px 25px 25px 25px;
   text-align: left;
   background: #008000;
 }
